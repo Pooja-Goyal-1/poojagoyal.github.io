@@ -12,8 +12,15 @@
     <!--Css file for icons-->
     <link rel="stylesheet" href="./css/all.min.css">
 
+    <!--Owl Carousel css file-->
+    <link rel="stylesheet" href="./vendor/owl Carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owl Carousel/css/owl.theme.default.min.css">
+
     <!--custom css file-->
     <link rel="stylesheet" href="./css/style.css">
+
+    <!--  Responsive css file  -->
+    <link rel="stylesheet" href="./css/responsive.css">
 
 </head>
 <body>
@@ -23,7 +30,7 @@
         <div class="main-menu">
             <nav class="navbar navbar-expand-lg navbar-light">  
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo"></a>
+                  <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo" width="50rem"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -37,7 +44,7 @@
                         <a class="nav-link" href="#">About</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#">Projects</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Portfolio</a>
@@ -344,9 +351,97 @@
             </div>
         </div>
     </section>
-      <!--End Skills Area-->
+    <!--End Skills Area-->
+
+    <!--Start projects area-->
+    <section class="projects-area">
+      <div class="container">
+          <div class="row text-center">
+              <div class="col-12">
+                  <div class="projects-title">
+                      <h1 class="text-uppercase title-text">Projects</h1>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="container carousel py-lg-5">
+        <div class="owl-carousel owl-theme">
+            <div class="col about-projects">
+                <h4 class="text-uppercase">E-Commerce Store</h4>
+                <p class="para">Building an e-commerce android app while learning Google Firebase and enhancing android development skills. The android app has login and registration system made using Firebase authentication. Firestore is used to store data in the app.</p>
+            </div>
+
+            <div class="col about-projects">
+              <h4 class="text-uppercase">Quiz App</h4>
+              <p class="para">An android app made using the Empty activity project template provided by the Android Studio; learnt about the navigation and layouts in android development; the user answers various questions and gets his score at the end of the quiz</p>
+            </div>
+
+            <div class="col about-projects">
+              <h4 class="text-uppercase">Bus-Scedular App</h4>
+              <p class="para">An android app that reads data from a prepopulated database using Room library and present it in a recycler view; the app shows the time of arrival of buses at a bus stop</p>
+            </div>
+
+            <div class="col about-projects">
+              <h4 class="text-uppercase">Mars Photos App</h4>
+              <p class="para">This android app shows the images of Mars using Recycler View, taking data from internet; learnt what a REST web service is, using RETROFIT library to connect to REST web service and get response and using MOSHI library to parse JSON response into data object while making this project using starter code for Android Basics in Kotlin; this app shows the images of Mars taken from a database.
+                </p>
+            </div>
+
+            <div class="col about-projects">
+              <h4 class="text-uppercase">Cupcake App </h4>
+              <p class="para">It is a Cup Cake Ordering android app that displays an order flow for cupcakes, allowing the user to choose the cupcake flavor, quantity, and pickup date and allows the user to send the order to another app and allows for canceling an order. </p>
+            </div>
+
+            <div class="col about-projects">
+              <h4 class="text-uppercase">Unscarmable</h4>
+              <p class="para">It is an Unscramble game android app where the user can guessm the unscrambled words and get scores accordingly; learnt about the navigation and architecture components in Android Development.</p>
+            </div>
+
+            <div class="col about-projects">
+              <h4 class="text-uppercase">Affirmations</h4>
+              <p class="para">This android app displays a list of affirmation strings and images; learnt how to add scrolling features to an android app</p>
+            </div>
+
+            <div class="col about-projects">
+              <h4 class="text-uppercase">Tip Time</h4>
+              <p class="para">This is a tip calculator android app; it calculates the amount of tip to be paid based on the service cost; learnt how to take input from the users, how to add a responsive button to an android app, building logic.</p>
+            </div>
+
+            <div class="col about-projects">
+              <h4 class="text-uppercase">Dice Roller</h4>
+              <p class="para">This is a Dice Roller Android App where users can click a button to roll a dice; learnt how to build layout in an Android app.</p>
+            </div>
+
+            <div class="col about-projects">
+              <h4 class="text-uppercase">Happy Birthday</h4>
+              <p class="para">My first android app; it displays a “Happy Birthday Message”; learnt how to use android studio: an IDE for android development </p>
+            </div>
+
+
+            
+        </div>
+      </div>
+    </section>
+    <!--End projects area-->
+
     </main>
     <!--End Main Area-->
+
+    <!--Frooter ares-->
+    <footer class="footer-area">
+      <div class="container">
+          <div class="">
+              <div class="social text-center">
+                  <h5 class="text-uppercase">Follow me</h5>
+                  <a href="https://www.linkedin.com/in/pooja-goyal-565401200/"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://github.com/Pooja-Goyal-1"><i class="fab fa-github"></i></a>
+                  <a href="https://developers.google.com/profile/u/108641795825053063255?utm_source=developers.google.com"><i class="fab fa-google"></i></a>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <!--End frooter area-->
 
 
     <!--Jquery.js file-->
@@ -357,6 +452,9 @@
 
     <!--Isotope.min.js library to sort the skills-->
     <script src="./vendor/isotope/isotope.min.js"></script>
+
+    <!--Owl carousel js file-->
+    <script src="./vendor/owl Carousel/js/owl.carousel.min.js"></script>
 
     <!--Custom js file-->
     <script src="./js/main.js"></script>

@@ -153,5 +153,51 @@
     font: normal 50 20px/30px var(--roboto);
 }
 
-
 /*end skills area*/
+
+/* Start projects area*/
+.site-main .projects-area .projects-title{
+    padding: 1rem 7rem;
+}
+
+.site-main .projects-area .projects-title h1{
+    font-size: 70px;
+}
+
+.site-main .projects-area .about-projects{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 1rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    font: normal 500 15px/2px var(--roboto);
+}
+
+.site-main .projects-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: black;
+    width: 12px;
+    height: 12px;
+}
+
+/* End projects area*/
+
+/*Start frooter area*/
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+/*End frooter area*/
